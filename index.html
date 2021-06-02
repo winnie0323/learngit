@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title># WEB应用软件开发实训——第三次作业——Git使用ֵ</title>
+</head>
+
+<body>
+
+    <h1>WEB应用软件开发实训——第三次作业——Git使用</h1>
+    <p>learngit 项目网址为：https: //github.com/winnie0323/learngit.git </https:>
+    </p>
+    <h2>一、必做部分</h2>
+    <h3>1.安装Git</h3>
+    <p>截图：<img src="image/git安装.png" alt="Smiley face" width="777" height="331"></p>
+    <h3>2.创建版本库</h3>
+    <p>截图：<img src="image/仓库管理.png" alt="Smiley face" width="761" height="236"></p>
+    <h3>3.版本控制</h3>
+    <p>截图：<img src="image/版本控制.png" alt="Smiley face" width="833" height="226"></p>
+    <h3>4.版本回退</h3>
+    <p>截图：<img src="image/版本回退.png" alt="Smiley face" width="812" height="366"></p>
+    <h3>5.工作区和暂存区</h3>
+    <p>截图：<img src="image/工作区和暂存区.png" alt="Smiley face" width="787" height="300"></p>
+    <h3>6.管理修改</h3>
+    <p>截图：<img src="image/管理修改.png" alt="Smiley face" width="817" height="277"></p>
+    <h3>7.撤销修改</h3>
+    <p>截图：<img src="image/撤销修改.png" alt="Smiley face" width="842" height="176"></p>
+    <h3>8.删除文件</h3>
+    <p>截图：<img src="image/删除文件.png" alt="Smiley face" width="763" height="422"></p>
+    <h3>9.远程仓库</h3>
+    <p>截图：<img src="image/远程仓库1.png" alt="Smiley face" width="748" height="453"></p>
+    <p>截图：<img src="image/远程仓库.png" alt="Smiley face" width="941" height="433"></p>
+    <h3>10.添加到远程仓库</h3>
+    <p>截图：<img src="image/添加到远程仓库1.png" alt="Smiley face" width="760" height="518"></p>
+    <p>截图：<img src="image/添加到远程仓库.png" alt="Smiley face" width="745" height="350"></p>
+    <h2>二、选做部分</h2>
+    <h3>1.创建与合并分支</h3>
+    <p>截图：<img src="image/创建与合并分支.png" alt="Smiley face" width="784" height="381"></p>
+    <h3>2.解决冲突</h3>
+    <p>截图：<img src="image/解决冲突.png" alt="Smiley face" width="822" height="527"></p>
+    <h3>3.分支管理策略</h3>
+    <p>截图：<img src="image/分支策略.png" alt="Smiley face" width="822" height="527"></p>
+    <h3>4.Bug分支</h3>
+    <p>截图：<img src="image/Bug分支.png" alt="Smiley face" width="822" height="527"></p>
+    <h3>5.Feature分支</h3>
+    <p>截图：<img src="image/Feature分支.png" alt="Smiley face" width="822" height="300"></p>
+
+    <h3>1.创建标签</h3>
+    <p>截图：<img src="image/创建标签.png" alt="Smiley face" width="822" height="400"></p>
+
+    <h3>1.使用Gitee</h3>
+    <p>截图：<img src="image/使用Gitee.png" alt="Smiley face" width="822" height="400"></p>
+
+    <h2>三、实验过程</h2>
+    <p>创建learngit空目录，把这个目录变成Git可以管理的仓库，learngit目录下编写一个readme.txt文件，
+        修改这个文件内容，使用add、commit提交修改之后的文件，学习两者的用途以及区别。
+        用git log可以查看提交历史、现在的版本状态，用git reflog 可以查看命令历史，用git reset 回到未来某个版本。
+        然后使用git rm删除文件，添加远程仓库（GitHub），从远程仓库中克隆过来.</p>
+    <h2>四、总结</h2>
+    <p>在撤回修改时，当还没add时用 $ git checkout -- readme.txt
+        已经add时先用 $git reset HEAD readme.txt
+        再用 $ git checkout -- readme.txt
+        git add命令实际上就是把要提交的所有修改放到暂存区（Stage），
+        然后，执行git commit就可以一次性把暂存区的所有修改提交到分支(master）。
+        在添加到远程仓库中遇到一些问题：使用SSH时无法推上去，没有权限进行。之后
+        使用了http来push。
+    </p>
+
+
+
+</body>
+
+</html>
